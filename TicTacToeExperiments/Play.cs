@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TicTacToeExperiments
 {
-    class Play
+    public class Play
     {
         string slot;
         string xOrO;
