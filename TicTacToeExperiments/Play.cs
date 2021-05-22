@@ -8,8 +8,9 @@ namespace TicTacToeExperiments
 {
     public class Play
     {
-        string slot;
-        string xOrO;
+        public string slot { get; set; }
+        public string xOrO { get; set; }
+        
 
     }
 }
