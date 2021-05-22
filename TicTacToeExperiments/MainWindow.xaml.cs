@@ -23,6 +23,8 @@ namespace TicTacToeExperiments
         public MainWindow()
         {
             InitializeComponent();
+            TicTacToeViewModel ticTacToeViewModel = new TicTacToeViewModel();
+            ticTacToeViewModel.SetupGame();
         }
 
         private void TextBlock_MouseDown(object sender, MouseButtonEventArgs e)

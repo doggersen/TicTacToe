@@ -29,7 +29,7 @@
 
         </Grid.RowDefinitions>
         <TextBlock x:Name="test" Grid.Column="0" HorizontalAlignment="Center" Grid.Row="0" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Grid.Row="0" Text="{Binding TicTacToeViewModel}" VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Grid.Row="0" Text="{Binding TestString}" VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
         <TextBlock Grid.Column="2" HorizontalAlignment="Center" Grid.Row="0" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
         <TextBlock Grid.Column="3" HorizontalAlignment="Center" Grid.Row="0" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
         <TextBlock Grid.Column="0" HorizontalAlignment="Center" Grid.Row="1" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
@@ -41,10 +41,10 @@
         <TextBlock Grid.Column="2" HorizontalAlignment="Center" Grid.Row="2" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
         <TextBlock Grid.Column="3" HorizontalAlignment="Center" Grid.Row="2" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
 
-        <Border BorderThickness="5" BorderBrush="Black" 
+        <!--<Border BorderThickness="5" BorderBrush="Black" 
             Grid.Column="0" Grid.Row="0" Grid.RowSpan="3" Grid.ColumnSpan="1"/>
         <Border BorderThickness="5" BorderBrush="Green" 
-            Grid.Column="1" Grid.Row="0" Grid.RowSpan="2"/>
+            Grid.Column="1" Grid.Row="0" Grid.RowSpan="2"/>-->
 
     </Grid>
 </Window>
